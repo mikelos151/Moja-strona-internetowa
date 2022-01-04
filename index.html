@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moja Strona Internetowa</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="header-content">
+        <h1>front end developer</h1>
+        <hr />
+        <p>HTML <span>•</span> CSS <span>•</span> JavaScript</p>
+        <a href="" class="btn">Dowiedz się więcej</a>
+      </div>
+    </header>
+
+    <nav class="main-menu">
+      <ul>
+        <li class="menu-content"><a href="#about">O mnie</a></li>
+        <li class="menu-content"><a href="#portfolio">Portfolio</a></li>
+        <li class="menu-content"><a href="#contact">Kontakt </a></li>
+      </ul>
+    </nav>
+
+    <section id="about" class="about">
+      <div class="container">
+        <header class="section-header">
+          <h2>O mnie</h2>
+          <hr />
+        </header>
+
+        <img src="img/lepszy-ja.jpg" alt="to-ja" class="me" />
+
+        <p>
+          Mam na imię MIchał i Jestem absolwentem akademii wychowania fizycznego
+          we Wrocławiu. Moim ukochanym sportem od zawsze był tenis ziemny,
+          dlatego też bardzo chciałem połączyć moją pasję z pracą i zostałem
+          trenerem. Jednak po 2 latach pracy doszedłem do wniosku, że ta praca
+          pomimo tego że sprawia mi mnóstwo frajdy i satysfakcji, to wymaga ode
+          mnie bardzo dużo wyżeczeń i poświęcenia w sferze życia prywatnego.
+          Postanowiłem zmienić swoją ścieżkę życiową,znależć inną pasję i
+          przebranżowić się. od Zawsze byłem bardzo zainteresowany grami
+          komputerowymi, podsystemami i technologiami dlatego postawiłem na
+          programowanie. Nauka nowych rzeczy nie stanowi dla mnie problemów i
+          bardzo szybko uczę się nowych rzeczy. Zapisałem się na kurs Front End
+          Developer. Podobnie jak z tenisem, kodowanie, daje mi bardzo dużo
+          satysfakcji i spełnienia. Cieszę się, że wybrałem ten kierunek. Bardzo
+          chcę zdobywać nowe doświdczenie i robić co bardziej ciekawe projekty w
+          tej sferze. Mam nadzieję, że już niedługo znajdę wymarzoną pracęz
+          gdzie będę dalej rozwijał swoje umiejętności i poszerzał wiedzę.
+        </p>
+        <p class="fed">CHCĘ BYĆ PROGRAMISTĄ.</p>
+
+        <a href="" class="btn">Moje Portfolio</a>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <header class="section-header">
+          <h2>Portfolio</h2>
+          <hr />
+        </header>
+
+        <div class="portfolio-wrapper">
+          <a href="" class="portfolio-item">
+            <img src="img/portfolio/photo-1.jpg" alt="portfolio item 1" />
+            <h3>Projekt</h3>
+          </a>
+
+          <a href="" class="portfolio-item">
+            <img src="img/portfolio/photo-2.jpg" alt="portfolio item 2" />
+            <h3>Projekt</h3>
+          </a>
+          <a href="" class="portfolio-item">
+            <img src="img/portfolio/photo-3.jpg" alt="portfolio item 3" />
+            <h3>Projekt</h3>
+          </a>
+          <a href="" class="portfolio-item">
+            <img src="img/portfolio/photo-4.jpg" alt="portfolio item 4" />
+            <h3>Projekt</h3>
+          </a>
+          <a href="" class="portfolio-item">
+            <img src="img/portfolio/photo-5.jpg" alt="portfolio item 5" />
+            <h3>Projekt</h3>
+          </a>
+          <a href="" class="portfolio-item">
+            <img src="img/portfolio/photo-6.jpg" alt="portfolio item 6" />
+            <h3>Projekt</h3>
+          </a>
+          <a href="" class="portfolio-item">
+            <img src="img/portfolio/photo-7.jpg" alt="portfolio item 7" />
+            <h3>Projekt</h3>
+          </a>
+          <a href="" class="portfolio-item">
+            <img src="img/portfolio/photo-8.jpg" alt="portfolio item 8" />
+            <h3>Projekt</h3>
+          </a>
+          <a href="" class="portfolio-item">
+            <img src="img/portfolio/photo-9.jpg" alt="portfolio item 9" />
+            <h3>Projekt</h3>
+          </a>
+          <a href="" class="portfolio-item">
+            <img src="img/portfolio/photo-10.jpg" alt="portfolio item 10" />
+            <h3>Projekt</h3>
+          </a>
+          <a href="" class="portfolio-item">
+            <img src="img/portfolio/photo-11.jpg" alt="portfolio item 11" />
+            <h3>Projekt</h3>
+          </a>
+          <a href="" class="portfolio-item">
+            <img src="img/portfolio/photo-12.jpg" alt="portfolio item 12" />
+            <h3>Projekt</h3>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <header class="section-header">
+          <h2>Kontakt</h2>
+          <hr />
+        </header>
+
+        <form action="https://formspree.io/f/xyyoyqwz" method="POST">
+          <input type="text" placeholder="Imię" name="name" />
+          <input type="email" placeholder="E-mail" name="email" />
+          <textarea name="message" placeholder="Wiadomość"></textarea>
+          <input type="submit" class="btn" />
+        </form>
+
+        <div class="social-links">
+          <a href="https://www.facebook.com/profile.php?id=100009803479366" target="_blank" class="social-link"
+            ><i class="fab fa-facebook-square"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/michal_._switalski/"
+            target="_blank"
+            class="social-link"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://twitter.com/?lang=en"
+            target="_blank"
+            class="social-link"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="https://www.youtube.com/watch?v=o1tj2zJ2Wvg&ab_channel=GunsNRosesVEVO" target="_blank" class="social-link"
+            ><i class="fab fa-youtube"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <div class="container">
+        <p>Wszystkie prawa zastrzeżone- MIchał Świtalski</p>
+      </div>
+    </footer>
+  </body>
+</html>
